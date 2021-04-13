@@ -1,0 +1,14 @@
+.SidBar{
+    background-image: linear-gradient(40deg, #19d3ac, #0fcfec);
+    position: fixed;
+}
+.SidBar li{
+    margin-bottom: 2em;
+}
+.SidBar li:hover span{
+    display: inline-block;
+    transform: translate(5px);
+}
+.SidBar svg{
+    margin-right: 5px;
+}
