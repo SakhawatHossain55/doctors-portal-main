@@ -19,7 +19,7 @@ const DashBoard = () => {
   };
 
   useEffect(() => {
-    fetch("http://localhost:5000/appointmentsByDate", {
+    fetch("https://shrouded-anchorage-03316.herokuapp.com/appointmentsByDate", {
       method: "POST",
       headers: { "content-type": "application/json" },
       body: JSON.stringify({ date: selectedDate, email: loggedInUser.email }),
